@@ -29,7 +29,8 @@ export default function Navigator() {
 
     React.useEffect(() => {
         const hash = window.location.hash?.slice(1);
-        setActive(navItems.findIndex(item => item.hash === hash) || 0);
+        const index = navItems.findIndex(item => item.hash === hash);
+        setActive(index === -1 ? 0 : index);
     }, []);
 
     return (
