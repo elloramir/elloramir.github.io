@@ -2,6 +2,7 @@ import React from 'react';
 import Blog from './blog.jsx';
 import Projects from './projects.jsx';
 import Cats from './cats.jsx';
+import Games from './games.jsx';
 
 export default function Navigator() {
     const [active, setActive] = React.useState(-1);
@@ -20,11 +21,17 @@ export default function Navigator() {
             component: <Projects />
         },
         {
+            hash: "games",
+            icon: "bi-joystick",
+            label: "Games",
+            component: <Games />
+        },
+        {
             hash: "cats",
             icon: "bi-chat-left-heart-fill",
             label: "My cats",
             component: <Cats />
-        }
+        },
     ];
 
     React.useEffect(() => {
