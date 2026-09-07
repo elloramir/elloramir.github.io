@@ -1,4 +1,4 @@
-[
+export default [
     {
         "name": "WebGL voxel engine",
         "icon": "bi-box-fill",
@@ -23,4 +23,4 @@
         "url": "https://github.com/elloramir/tinybox",
         "text": "This is a fun project where I built a 2D game engine for small projects. The engine includes SDF font rendering."
     }
-]
+];

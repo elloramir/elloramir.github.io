@@ -1,4 +1,4 @@
-[
+export default [
     {
         "name": "Deep dive",
         "icon": "bi-controller",
@@ -11,4 +11,4 @@
         "url": "https://elloramir.itch.io/frenzy-fall",
         "text": "Frenzy Fall is a platformer game about climbing out to the surface with the limited moveset of a sword."
     }
-]
+];

@@ -1,5 +1,5 @@
 import React from "react";
-import posts from "./data/cats.json";
+import posts from "./data/cats.jsx";
 
 export default
 function Cats() {

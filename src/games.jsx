@@ -1,5 +1,5 @@
 import React from "react";
-import games from "./data/games.json";
+import games from "./data/games.jsx";
 
 export default
 function Games() {

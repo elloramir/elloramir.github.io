@@ -5,7 +5,7 @@ function Profile() {
 	return (
 		<div className="col-lg-4 header">
 	        <div className="text-center">
-	            <img className="profile" src="../images/profile.png" alt="Elloramir's profile picture" />
+	            <img className="profile" src="images/profile.png" alt="Elloramir's profile picture" />
 	            <h1 className="text-white">Elloramir</h1>
 	            <p className="fs-5 text-light">Hi there 👋.<br/>I was wating for you.</p>
 

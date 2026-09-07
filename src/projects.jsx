@@ -1,5 +1,5 @@
 import React from "react";
-import posts from "./data/projects.json";
+import posts from "./data/projects.jsx";
 
 export default
 function Projects() {

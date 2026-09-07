@@ -1,10 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import Profile from "./profile.jsx";
 import Navigator from "./navigator.jsx";
-
-const container = document.getElementById("root");
-const root = ReactDOM.createRoot(container);
 
 function App() {
     return (
@@ -17,4 +14,4 @@ function App() {
     )
 };
 
-root.render(<App />);    
+ReactDOM.render(<App />, document.getElementById("root"));

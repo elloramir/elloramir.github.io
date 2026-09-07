@@ -1,5 +1,5 @@
 import React from "react";
-import posts from "./data/blog.json";
+import posts from "./data/blog.jsx";
 
 export default
 function Blog() {
